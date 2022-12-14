@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">chequeoExamen</string>
+    <string name="titulo">Pizza Restaurant Murgi</string>
+    <string name="escogeTamanio">Choose your size:</string>
+    <string name="escogeIngrediente">Choose your ingredients:</string>
+    <string name="precio">Price:</string>
+    <string name="lunes">MONDAY</string>
+    <string name="martes" translatable="false">TUESDAY</string>
+    <string name="miercoles">WEDNESDAY</string>
+    <string name="jueves">THURSDAY</string>
+    <string name="viernes">FRIDAY</string>
+    <string name="recreo">BREAK</string>
+    <string name="horario">TIMETABLE</string>
+    <string name="york">Lamb (0.5 €)</string>
+    <string name="champ">Mushroom (0.5 €)</string>
+    <string name="atun">Tuna (1 €)</string>
+    <string name="aceitunas">Olives (0.5 €)</string>
+    <string name="grande">Large (15 €)</string>
+    <string name="mediano">Medium (10€)</string>
+    <string name="pequeño">Small (5€)</string>
+    <string name="valoracion">Value us:</string>
+</resources>

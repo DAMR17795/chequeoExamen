@@ -1,0 +1,104 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">chequeoExamen</string>
+
+    <!--*********************************Pizzeria Murgi****************************-->
+    <string name="titulo" tools:ignore="MissingTranslation">Pizzeria Murgi</string>
+
+    <string name="escogeTamanio" tools:ignore="MissingTranslation">Elige el tamaño: </string>
+    <string name="escogeIngrediente" tools:ignore="MissingTranslation">Escoge los ingredientes: </string>
+    <string name="precio" tools:ignore="MissingTranslation">Precio: </string>
+
+    <string name="york" tools:ignore="MissingTranslation">York (0.5 €)</string>
+    <string name="champ" tools:ignore="MissingTranslation">Champiñon (0.5 €)</string>
+    <string name="atun">Atún (1 €)</string>
+    <string name="aceitunas">Aceitunas (0.5 €)</string>
+    <string name="salami" translatable="false">Salami (0.5 €)</string>
+
+    <string name="grande">Grande (15 €)</string>
+    <string name="mediano">Mediano (10 €)</string>
+    <string name="pequeño">Pequeño (5 €)</string>
+
+    <string name="valoracion" tools:ignore="MissingTranslation">Valoranos:</string>
+
+    <!--***************************************************************************-->
+
+    <!--******************************* Horario Clase ****************************-->
+    <string name="lunes" translatable="true">LUNES</string>
+    <string name="martes">MARTES</string>
+    <string name="miercoles">MIÉRCOLES</string>
+    <string name="jueves">JUEVES</string>
+    <string name="viernes">VIERNES</string>
+    <string name="recreo" tools:ignore="MissingTranslation">RECREO</string>
+    <string name="pmdm" translatable="false">PMDM</string>
+    <string name="psp" translatable="false">PSP</string>
+    <string name="sge" translatable="false">SGE</string>
+    <string name="ad" translatable="false">AD</string>
+    <string name="eie" translatable="false">EIE</string>
+    <string name="di" translatable="false">DI</string>
+    <string name="horario">HORARIO</string>
+
+    <!--***************************************************************************-->
+
+    <!--******************************* Autocomplete ****************************-->
+    <string name="distancia" translatable="false">Distancia:</string>
+    <string name="poblacion" translatable="false">Poblacion:</string>
+    <string name="descripcion" translatable="false">Descripcion:</string>
+    <string name="hintDescripcion" translatable="false">Introduce Descripcion</string>
+    <string name="hintPoblacion" translatable="false">Introduce tu poblacion</string>
+    <string name="hintDinstancia" translatable="false">Introduce Distancia</string>
+    <string-array name="muchaspoblaciones">
+        <item>Almeria</item>
+        <item>Almerimar</item>
+        <item>Avila</item>
+        <item>Azahara de los Atunes</item>
+        <item>Atocha</item>
+        <item>Alcaudique</item>
+        <item>Aguadulce</item>
+        <item>Adra</item>
+        <item>Albolote</item>
+        <item>Azurita</item>
+    </string-array>
+
+    <!--******************************* Spinner ****************************-->
+    <string name="api" translatable="false">API:</string>
+    <string name="version" translatable="false">Version:</string>
+    <string name="tvCar" translatable="false">Características:</string>
+    <string name="txtApi" translatable="false">Escribe la API</string>
+    <string name="txtVersion" translatable="false">Escribe la version</string>
+    <string name="txtCar" translatable="false">Escribe las caracteristicas</string>
+
+    <!--******************************* SpinnerAnidado ****************************-->
+
+
+    <string-array name="array_familias">
+        <item>Mecánica</item>
+        <item>Informática</item>
+        <item>Administración</item>
+        <item>Electricidad</item>
+    </string-array>
+
+    <string-array name="array_informatica">
+        <item>FPM Sistemas Microinformáticos y Redes</item>
+        <item>FPS Desarrollo de Aplicaciones Multiplataforma</item>
+        <item>FPS Desarrollo de Apliaciones Web</item>
+        <item>FPS Automatización de Robótica Industrial</item>
+
+    </string-array>
+    <string-array name="array_mecanica">
+        <item>FPB Mantenimiento de Vehículos</item>
+
+    </string-array>
+    <string-array name="array_electricidad">
+        <item>FPM Instalaciones Eléctricas y Automáticas</item>
+        <item> FPM Electromecánica de vehículos Automóviles</item>
+        <item>FPS Sistemas Electrotécnicos y Automatizados</item>
+
+    </string-array>
+
+    <string-array name="array_administracion">
+        <item>FPM Gestión Administrativa</item>
+        <item>FPS Administración y Finanzas</item>
+
+
+    </string-array>
+</resources>
