@@ -201,6 +201,47 @@ class MainActivity : AppCompatActivity() {
 
             enviar.putExtra("PRECIO", precio.text.toString())
 
+            var tamanoIntent = ""
+
+            if (tamanioPequenio.isChecked) {
+                tamanoIntent = tamanioPequenio.getText().toString()
+            }
+
+            if (tamanioMediano.isChecked) {
+                tamanoIntent = tamanioMediano.getText().toString()
+            }
+
+            if (tamanioGrande.isChecked) {
+                tamanoIntent = tamanioGrande.getText().toString()
+            }
+            enviar.putExtra("TAMANO", tamanoIntent)
+
+            var txtAtun = ""
+            var txtChamp = ""
+            var txtSalami = ""
+            var txtAceituna = ""
+            var txtYork = ""
+
+            if (atun.isChecked) {
+               txtAtun = atun.getText().toString()
+            }
+            if (champ.isChecked) {
+                txtChamp= champ.getText().toString()
+            }
+            if (salami.isChecked) {
+                txtSalami = salami.getText().toString()
+            }
+            if (aceitunas.isChecked) {
+                txtYork = york.getText().toString()
+            }
+            if (york.isChecked) {
+                txtAceituna = aceitunas.getText().toString()
+            }
+
+            var todos = txtAtun + " " + txtChamp + " " + txtSalami + " " + txtAceituna + " " + txtYork
+
+            enviar.putExtra("INGREDIENTE", todos)
+
             Toast.makeText(this, "Pedido Realizado", Toast.LENGTH_SHORT).show()
 
             startActivity(enviar)

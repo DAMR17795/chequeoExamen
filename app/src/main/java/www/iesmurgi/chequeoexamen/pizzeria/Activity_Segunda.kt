@@ -21,8 +21,14 @@ class Activity_Segunda : AppCompatActivity() {
     fun mostrar() {
         val mibundle=intent.extras
         val nombre = mibundle?.getString("PRECIO")
+        val tamano = mibundle?.getString("TAMANO")
+        val ingrediente = mibundle?.getString("INGREDIENTE")
+        val tvIngrediente = binding.tvIngrediente
+        val tvTamano = binding.tvTamano
         val tvPrecio=binding.txtPrecio
         tvPrecio.setText("Importe final: " + nombre)
+        tvTamano.setText("Tamaño: " + tamano)
+        tvIngrediente.setText("Ingredientes: " + ingrediente)
 
     }
 
