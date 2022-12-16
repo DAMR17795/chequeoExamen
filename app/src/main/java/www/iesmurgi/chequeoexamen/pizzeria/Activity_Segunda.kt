@@ -16,6 +16,7 @@ class Activity_Segunda : AppCompatActivity() {
         binding.ratingBar.setOnRatingBarChangeListener { ratingBar, fl, b -> valoracion() }
         binding.btVolver.setOnClickListener{onBackPressed()}
 
+
     }
 
     fun mostrar() {

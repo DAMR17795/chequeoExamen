@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         var miTexto = binding.titulo
         var imagen = binding.imageView
 
+
         //Animaciones
         val escala = AnimationUtils.loadAnimation(this, R.anim.escala)
         val aparicion = AnimationUtils.loadAnimation(this, R.anim.aparicion)
